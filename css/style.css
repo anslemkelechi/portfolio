@@ -487,8 +487,13 @@ body {
   }
   .nav-list:not(:last-child) {
     margin-right: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
+  .social ul {
+    text-align: unset;
+    display: none;
+  }
+
   .main-header h1 {
     font-size: 9rem;
     font-weight: 400;
@@ -518,13 +523,16 @@ body {
   .workflow-text {
     margin-left: 0rem;
   }
+  .grid-of-6 {
+    grid-template-columns: repeat(4, 1fr);
+  }
   .skill-box {
     text-align: unset;
     padding: 0.5rem 1rem;
     border-radius: unset;
   }
   .skill-box h3 {
-    font-size: 0.7rem;
+    font-size: 1.5rem;
   }
   .footer-img {
     width: 7rem;
@@ -539,7 +547,7 @@ body {
     margin: 7rem auto -2rem auto;
   }
   .footer-grid .grid-item:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   .footer-nav ul {
     text-align: unset;
