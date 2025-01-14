@@ -1,0 +1,9 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-2xs {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+}
